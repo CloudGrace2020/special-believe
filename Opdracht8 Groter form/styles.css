@@ -1,0 +1,65 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px
+}
+
+.centre-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: maroon;
+    font-style: italic;
+}
+
+.soft-border{
+    border: lightcoral;
+}
+
+.navigation-links li {
+    display: inline;
+    margin: 20px;
+}
+h2{
+    color: crimson;
+}
+p{
+    font-size: 16px;
+    color: black;
+}
+
+
+
+a:hover{
+    color:red;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.box-1{
+    border: darkmagenta;
+    background-color:blanchedalmond;
+    border-style: solid;
+    margin: 5px; 
+    padding: 5px;
+}
+.box-2{
+    border: blue;
+    background-color: chartreuse;
+    border-style: solid;
+    margin: 5px;
+    padding: 5px;
+}
+.container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+@media (min-width: 1024px) 
+{
+ body{
+     background-color: lightcoral;
+
+     font-size: 10px
+ }  
+}
